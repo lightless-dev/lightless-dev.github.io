@@ -25,10 +25,13 @@ Use your keyboard to control the character:
 - **HTML**
 - **CSS**
 - **Scratch(for game)**
+---
 ### Looking for something else?
 here are a few links.
 
 - [blog](https://lightless-dev.hithub.io/lightLess-Blog)
+
+---
 
 ## Main Contributers
 
