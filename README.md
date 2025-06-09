@@ -29,7 +29,7 @@ Use your keyboard to control the character:
 ### Looking for something else?
 here are a few links.
 
-- [blog](https://lightless-dev.hithub.io/lightLess-Blog)
+- [blog](https://lightless-dev.github.io/Blog)
 
 ---
 
