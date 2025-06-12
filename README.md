@@ -2,7 +2,7 @@
 
 A fun browser-based parkour game built for quick reflexes and skill-based movement. 🕹️
 
-**Try playing now:** [lightless-dev.github.io(our official site)](https://lightless-dev.github.io)
+**Try playing now:** [lightless-dev.github.io(our official site)](https://lightless-dev.github.io/)
 
 ---
 # About
@@ -25,8 +25,11 @@ Use your keyboard to control the character:
 - **HTML**
 - **CSS**
 - **Scratch(for game)**
+
+_The code for the versions are on [resources](https://github.com/lightless-dev/resource)_
+
 ---
-### Looking for something else?
+### Looking for _something else?_
 here are a few links.
 
 - [blog](https://lightless-dev.github.io/Blog)
