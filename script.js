@@ -5,6 +5,6 @@
             if (url) {
                 window.location.href = url;
             } else {
-                alert('Please select a game first!');
+                alert('Please select a version/beta version first!');
             }
         }
