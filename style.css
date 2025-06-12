@@ -38,11 +38,12 @@ header {
     color: #f0f0f0;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, scale 0,1s ease;
 }
 
 .header-right a:hover {
     color: green;
+    scale: 1.1;
 }
 
 .container {
@@ -80,5 +81,4 @@ p {
 p strong {
     font-size: 1em;
     font-weight: bold;
-    color: green;
 }
