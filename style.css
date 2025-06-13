@@ -82,8 +82,9 @@ button:hover {
 p {
     font-size: 1.2em;
     color: white;
-    margin: 20%;
+    margin: 30px;
     align-text: left;
+    padding: 20px;
 }
 
 p strong {
