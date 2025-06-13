@@ -35,15 +35,11 @@ header {
 
 .header-right a {
     margin-left: 20px;
-    color: #f0f0f0;
+    color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.header-right a:hover {
-    color: green;
-}
 
 a{
     color: white;
@@ -84,11 +80,11 @@ button:hover {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
 }
 
 p strong {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
 }
