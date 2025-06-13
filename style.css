@@ -45,6 +45,17 @@ header {
     color: green;
 }
 
+a{
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+a:hover{
+    color:green;
+    text-decoration: underline
+}
+
 .container {
     margin-top: 60px;
     text-align: center;
