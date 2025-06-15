@@ -111,6 +111,10 @@ p strong {
     font-weight: bold;
 }
 
+p a{
+    color: grey;
+}
+
 h1 {
     font-size: 2em;
 }
