@@ -42,31 +42,33 @@ header {
     font-weight: bold;
 }
 
-
-a{
+a {
     color: white;
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
-}
-
-a:hover{
-    color:green;
-    text-decoration: underline
+    position: relative;
+    text-decoration: none;
 }
 
 a::after {
-  content: '';
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  height: 2px;
-  background: green;
-  transform: scaleX(0);
-  transition: transform 0.3s;
-  transform-origin: left;
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: green;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+}
+
+a:hover {
+    color: green;
 }
 
 a:hover::after {
-  transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 .container {
@@ -109,10 +111,10 @@ p strong {
     font-weight: bold;
 }
 
-h1{
+h1 {
     font-size: 2em;
 }
 
-h2{
+h2 {
     font-size: 1.7em;
 }
