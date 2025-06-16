@@ -1,14 +1,3 @@
-function playNow() {
-    const select = document.getElementById('gameSelect');
-    const url = select.value;
-
-    if (url) {
-        window.location.href = url;
-    } else {
-        alert('Please select a version/beta version first!');
-    }
-}
-
 // Mobile menu toggle
 document.addEventListener('DOMContentLoaded', function() {
     var menuToggle = document.querySelector('.menu-toggle');
@@ -16,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if(menuToggle && nav) {
         menuToggle.addEventListener('click', function() {
             nav.classList.toggle('show');
+        });
+        // Hide menu when a link is clicked (on mobile)
+        nav.querySelectorAll('a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                nav.classList.remove('show');
+            });
         });
     }
 });
