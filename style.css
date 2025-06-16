@@ -38,8 +38,6 @@ header {
 .header-right {
     display: flex;
     align-items: center;
-    /* Enable horizontal scrolling on overflow for mobile */
-    gap: 0; /* Remove gap since spacing is handled by margin in .header-right a */
 }
 
 .header-right a {
@@ -47,33 +45,45 @@ header {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    position: relative;
-}
-
-a{
-    color: white;
+    position: relative; /* Ensures underline stays under link text */
     transition: background-color 0.3s ease, color 0.3s ease;
     cursor: pointer;
 }
 
-a:hover{
-    color:green;
-    text-decoration: underline
+.header-right a:hover,
+.header-right a.active {
+    color: green;
+    text-decoration: underline;
 }
 
-a::after {
-  content: '';
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  height: 2px;
-  background: green;
-  transform: scaleX(0);
-  transition: transform 0.3s;
-  transform-origin: left;
+/* Only nav links get the animated underline, not all a */
+.header-right a::after {
+    content: '';
+    position: absolute;
+    left: 0; right: 0;
+    bottom: 4px; /* Adjust as needed for your font size/line height */
+    height: 2px;
+    background: green;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    transform-origin: left;
+    z-index: 1;
 }
 
-a:hover::after {
-  transform: scaleX(1);
+.header-right a:hover::after,
+.header-right a.active::after {
+    transform: scaleX(1);
+}
+
+/* General a styles for other links (no underline) */
+a {
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+a:hover {
+    color: green;
+    text-decoration: underline;
 }
 
 .container {
@@ -137,10 +147,8 @@ h2{
     .header-right a {
         flex: 0 0 auto;
         margin-left: 16px;
-        margin-right: 0;
         font-size: 1em;
         line-height: 48px;
-        /* Prevent wrapping */
         white-space: nowrap;
     }
     .header-right a:first-child {
