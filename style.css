@@ -115,6 +115,10 @@ h2{
     font-size: 1.7em;
 }
 
+.big text{
+    size: 6em;
+}
+
 video {
   border-radius: 16px;
   border: 2px solid green;
