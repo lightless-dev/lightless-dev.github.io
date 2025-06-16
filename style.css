@@ -117,7 +117,7 @@ h2{
 
 video {
   border-radius: 16px;
-  border: 8px solid green;
+  border: 2px solid green;
   overflow: hidden;
   display: inline-block;
 }
