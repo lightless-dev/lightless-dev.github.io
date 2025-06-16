@@ -123,32 +123,60 @@ h2 {
     font-size: 1.7em;
 }
 
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hamburger button styles */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 0;
+}
+
 /* --- Responsive styles for mobile --- */
 @media (max-width: 700px) {
+    .menu-toggle {
+        display: block;
+    }
+    .header-right {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background: rgba(31, 31, 31, 0.95);
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1001;
+    }
+    .header-right.show {
+        display: flex;
+    }
     header {
         flex-direction: column;
         align-items: flex-start;
-        padding: 10px;
+        position: relative;
     }
     .header-left {
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 0;
         justify-content: flex-start;
     }
-    .header-right {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
     .header-right a {
-        margin-left: 0;
-        margin-right: 0;
-        font-size: 1em;
+        margin: 0;
         width: 100%;
-        padding: 10px 0;
-        text-align: left;
+        padding: 15px 20px;
         border-bottom: 1px solid #333;
+        text-align: left;
     }
     .site-title {
         font-size: 1.15em;
