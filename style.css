@@ -122,3 +122,63 @@ h1 {
 h2 {
     font-size: 1.7em;
 }
+
+/* --- Responsive styles for mobile --- */
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .header-left {
+        width: 100%;
+        margin-bottom: 10px;
+        justify-content: flex-start;
+    }
+    .header-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header-right a {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 1em;
+        width: 100%;
+        padding: 10px 0;
+        text-align: left;
+        border-bottom: 1px solid #333;
+    }
+    .site-title {
+        font-size: 1.15em;
+        word-break: break-all;
+    }
+    .logo {
+        height: 40px;
+        margin-right: 10px;
+    }
+    .container {
+        margin-top: 20px;
+        padding: 0 5px;
+    }
+    select,
+    button {
+        width: 100%;
+        font-size: 1em;
+        padding: 12px 0;
+    }
+    video {
+        width: 100% !important;
+        height: auto !important;
+        margin: 0 auto;
+    }
+    h1, h2 {
+        font-size: 1.3em;
+    }
+    p {
+        font-size: 1em;
+        padding: 10px;
+        margin: 10px;
+    }
+}
