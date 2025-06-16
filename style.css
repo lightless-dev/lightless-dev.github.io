@@ -96,7 +96,8 @@ button:hover {
 p {
     font-size: 1.2em;
     color: white;
-    margin: 30vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
     text-align: center;
     padding: 20px;
 }
