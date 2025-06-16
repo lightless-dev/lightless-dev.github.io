@@ -47,6 +47,7 @@ header {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    position: relative;
 }
 
 a{
