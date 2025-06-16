@@ -118,7 +118,7 @@ video {
   border-radius: 16px;
   border: 8px solid green;
   overflow: hidden;
-  display: block;
+  display: inline-block;
 }
 
 
