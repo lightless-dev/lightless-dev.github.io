@@ -114,10 +114,13 @@ h2{
     font-size: 1.7em;
 }
 
-video{
-    border-radius: 16px;
-    border-color: green;
+video {
+  border-radius: 16px;
+  border: 8px solid green;
+  overflow: hidden;
+  display: block;
 }
+
 
 /* ========== SCROLLABLE NAV ON MOBILE ========== */
 @media (max-width: 700px) {
