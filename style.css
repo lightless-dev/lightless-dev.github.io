@@ -118,9 +118,7 @@ h2{
 .big-text{
     font-size: 6em;
     text-align: center;
-    display: block;
     margin: 20px;
-    width: 100%;
 }
 
 video {
