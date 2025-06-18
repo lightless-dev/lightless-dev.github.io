@@ -133,13 +133,13 @@ video: hover{
     border: 4px solid green;
 }
 
-image{
+img{
     border-radius: 8px;
     border: 2px solid green;
     transition: border-width 0.3s ease;
 }
 
-image: hover{
+img: hover{
     border: 4px solid green;
 }
 
