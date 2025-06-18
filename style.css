@@ -53,7 +53,6 @@ header {
 .header-right a:hover,
 .header-right a.active {
     color: green;
-    /* No underline, no animation */
 }
 
 a {
@@ -63,7 +62,6 @@ a {
 }
 a:hover {
     color: green;
-    /* No underline */
 }
 
 .container {
@@ -118,6 +116,11 @@ h2{
 .big-text{
     font-size: 6em;
     text-align: center;
+    margin: 20px;
+}
+
+.not-too-large-text{
+    font-size: 3em;
     margin: 20px;
 }
 
