@@ -154,12 +154,5 @@ img{
     .header-right a:first-child {
         margin-left: 20px;
     }
-    .header-right::-webkit-scrollbar {
-        height: 3px;
-        background: transparent;
-    }
-    .header-right::-webkit-scrollbar-thumb {
-        background: #333;
-        border-radius: 2px;
-    }
+    
 }
