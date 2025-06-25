@@ -132,27 +132,36 @@ video{
 
 img{
     border-radius: 8px;
+}
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: green;
+}
 
-/* ========== SCROLLABLE NAV ON MOBILE ========== */
+/* Mobile: Stack nav links vertically */
 @media (max-width: 700px) {
-    .header-right {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        white-space: nowrap;
-        width: 100vw;
-        scrollbar-width: thin;
-        -webkit-overflow-scrolling: touch;
-    }
-    .header-right a {
-        flex: 0 0 auto;
-        margin-left: 16px;
-        font-size: 1em;
-        line-height: 48px;
-        white-space: nowrap;
-    }
-    .header-right a:first-child {
-        margin-left: 20px;
-    }
-    
+  .header-right {
+    display: block;
+    width: 100%;
+    overflow: visible;
+    white-space: normal;
+  }
+  .header-right a {
+    display: block;
+    margin: 8px 0;
+    font-size: 1em;
+    line-height: 2em;
+    text-align: left;
+    padding-left: 20px;
+  }
 }
