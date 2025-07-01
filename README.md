@@ -9,9 +9,9 @@ A fun browser-based parkour game built for quick reflexes and skill-based moveme
 
 ## 🎮 How to Play
 
-Use your keyboard to control the character:
+Use your keyboard or tap the mobile controls to move the character:
 
-- **Arrow keys** or **WASD** for movement  
+- **Arrow keys**, **WASD**, or **Tapping** for movement  
 - Navigate through parkour levels and avoid obstacles!
 
 ## 🚀 Features
